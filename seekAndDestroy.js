@@ -1,8 +1,16 @@
-function destroyer(arr, a,b) {
-  var args = Array.prototype.slice.call(arr);
-  console.log(args)
+function destroyer(arr) {
+  let valsToRemove = Object.values(arguments).slice(1)
 
-  return arr;
+  for(let i = 0; i < arr.length; i++) {
+     for (let j = 0; i < valsToRemove.length; j++) {
+       if (arr[i] === valsToRemove[j]) {
+          delete arr[i]
+       }
+     }
+  }
+
+  let newArr = arr.filter(item => item !== null);
+  console.log(newArr)
 
 }
 
