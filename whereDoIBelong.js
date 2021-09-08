@@ -1,16 +1,23 @@
 function getIndexToIns(arr, num) {
 
-  // sort the array
-  let sorted = arr.sort((a,b) => a-b)
+  // arr.sort((a,b) => a -b )
 
-  for (let i = 0; i < sorted.length; i++) {
-    if (num > sorted[i]) {//if the current item is smaller than the 
-      console.log(sorted[i])
-      // return arr[i]; //return the value at the index you are on
-   };
-  }
+  let spliceAt = '';
 
-  // return num;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > num) {
+      spliceAt = arr.indexOf(arr[i])
+      break;
+    }
 }
 
-getIndexToIns([40, 60]), 50
+arr.splice(spliceAt, 0, num)
+arr.sort((a,b) => a - b)
+console.log(arr)
+let indexNew  = arr.indexOf(num)
+console.log(indexNew)
+
+}
+// getIndexToIns([40, 60], 50)
+// getIndexToIns([10, 20, 30, 40, 50], 35)
+getIndexToIns([2, 5, 10], 15)
