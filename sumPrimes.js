@@ -20,7 +20,7 @@ function sumPrimes(num) {
     return true;
   }
 
-  console.log(notPrimeList)
+  // console.log(notPrimeList)
   console.log(primeList);
 
   const reducer = (previousValue, currentValue) => previousValue + currentValue;
