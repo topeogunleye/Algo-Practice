@@ -56,8 +56,19 @@ function isPalindrome(str) {
   return reversedString === str ? true : false
 }
 
-console.log(isPalindrome('racecar'));
+// console.log(isPalindrome('racecar'));
 
 // CLALLENGE 3: REVERSE AN INTEGER
 // Return an integer in reverse
 // ex. reverseInt(521) === 125
+
+function reverseAnInteger(num) {
+  // convert the num to a string
+  // reverse the str
+  // convert the str to a num and return
+
+  const reversedInt =  num.toString().split('').reverse().join('')
+  return Number(reversedInt);
+}
+
+console.log(reverseAnInteger(521))
