@@ -3,9 +3,9 @@
 
 charAt(index) // Returns the character at the specified index (position)
 charCodeAt(index) // Returns the Unicode of the character at the specified index
-concat(str1,[...]) // Joins two or more strings, and returns a new joined strings
+concat(str1) // Joins two or more strings, and returns a new joined strings
 endsWith(searchVal,[length]) // Checks whether a string ends with specified string/characters
-fromCharCode(n1,[...]) // Converts Unicode values to characters
+fromCharCode(n1) // Converts Unicode values to characters
 includes(searchVal,[start]) // Checks whether a string contains the specified string/characters
 indexOf(searchVal,[start]) // Returns the position of the first found occurrence of a specified value in a string
 lastIndexOf(searchVal,[start]) // Returns the position of the last found occurrence of a specified value in a string
