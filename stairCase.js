@@ -17,4 +17,4 @@ function staircase(n) {
 // SS## i=1, S=2, #=2
 // S### i=2, S=1, #=3
 // #### i=3, S=0, #=4
-staircase(6)
+staircase(10)
