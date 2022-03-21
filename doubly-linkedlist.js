@@ -10,7 +10,22 @@ class LinkedList {
 
   }
 
-  // a
+  // add to beginning of list / head
+  prepend() {
+
+  }
+
+  deleteHead() {
+
+  }
+
+  deleteTail() {
+
+  }
+
+  search() {
+    
+  }
 }
 
 class Node {
