@@ -6,8 +6,16 @@ class LinkedList {
   }
 
   // add to end of list / tail
-  append() {
-
+  append(value) {
+    // if list is empty
+    if (!this.tail) {
+      this.head = this.tail = new Node(value)
+    } else {
+      let oldTail = this.tail
+      this.tail = new Node(value)
+      oldTail.next = this.tail
+      this.tail.previous = oldTail
+    }
   }
 
   // add to beginning of list / head
@@ -24,7 +32,7 @@ class LinkedList {
   }
 
   search() {
-    
+
   }
 }
 
