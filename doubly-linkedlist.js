@@ -19,16 +19,51 @@ class LinkedList {
   }
 
   // add to beginning of list / head
-  prepend() {
+  prepend(value) {
+    // if list is empty
+    if (!this.head) {
+      this.head = this.tail = new Node(value)
+    } else {
+      let oldHead = this.head
+      this.head = new Node(value)
+      oldHead.prev = this.head
+      this.head.next = oldHead
+    }
 
   }
 
   deleteHead() {
-
+    // if list is empty
+    if(!this.head) {
+      return null
+    } else {
+      let removeHead = this.head
+      // if 1 node left
+      if (this.head === this.tail) {
+        this.head = this.tail = null
+      } else {
+        this.head = this.head.next
+        this.head.prev = null
+      }
+      return removeHead.value
+    }
   }
 
   deleteTail() {
-
+    // if list is empty
+    if(!this.tail) {
+      return null
+    } else {
+      let removeTail = this.tail
+      // if 1 node left
+      if (this.head === this.tail) {
+        this.head = this.tail = null
+      } else {
+        this.tail = this.tail.prev
+        this.tail.next = null
+      }
+      return removeTail.value
+    }
   }
 
   search() {
