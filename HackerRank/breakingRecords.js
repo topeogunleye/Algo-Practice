@@ -18,11 +18,12 @@ function breakingRecords(scores) {
   let highRecord = 0;
   let lowRecord = 0;
 
+
   for (var i = 0; i < scores.length; i++) {
-    if (scores[i] > maxScore) {
+    if (scores[i] > highestScore) {
       highRecord++;
       highestScore = scores[i];
-    } else if (scores[i] < minScore) {
+    } else if (scores[i] < lowestScore) {
       lowRecord++;
       lowestScore = scores[i];
     }
