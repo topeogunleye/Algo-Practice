@@ -5,6 +5,7 @@ function birthdayCakeCandles(candles) {
   let maxValue = candles[0];
   let maxValueCount = 0;
 
+
   candles.map((candle) => {
     if (candle > maxValue) {
       maxValue = candle;
