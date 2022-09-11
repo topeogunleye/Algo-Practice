@@ -57,4 +57,22 @@ function gradingStudents4(scores) {
     
 }
 
+
+    // Write your code here
+    // Next Multiple - Grade < 3, round grade up to the next multiple of 5
+    // E.G 83 => 85 - 83 = 2; 2 < 3; Round 83 to 85, Return 85;
+    
+    // Next Multiple - Grade > 3, leave grade as it is.
+    
+    // Grade < 40, do not round up, return grade as it is
+    
+    
+    grades.forEach((grade,index) => {
+        
+        if (grade >= 38 && grade % 5 >= 3) {
+            
+            grades[index] = grade + 5 - (grade % 5)
+        }
+    })
+
 console.log(gradingStudents4([34, 38, 43, 48, 41, 37]));
