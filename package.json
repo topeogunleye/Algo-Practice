@@ -1,0 +1,19 @@
+{
+  "name": "algo-practice",
+  "version": "1.0.0",
+  "description": "> Daily pracitse of Data Structures and Algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topeogunleye/Algo-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/topeogunleye/Algo-Practice/issues"
+  },
+  "homepage": "https://github.com/topeogunleye/Algo-Practice#readme"
+}
