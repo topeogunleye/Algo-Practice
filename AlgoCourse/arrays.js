@@ -17,4 +17,3 @@ strings.splice(2, 0, 'alien'); // O(n)
 
 console.log(strings)
 
-
