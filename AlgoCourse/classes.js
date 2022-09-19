@@ -28,6 +28,7 @@ const object4 = {
 // instantiation
 class Player {
     constructor(name, type) {
+        console.log(this)
         this.name = name;
         this.type = type;
     }
