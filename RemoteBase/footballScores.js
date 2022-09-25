@@ -34,8 +34,40 @@ function readLine() {
 
 function counts(teamA, teamB) {
     // Write your code here
-    
+    let obj = {}
+    teamA.sort()
+
+    for (let i = 0; i < teamB.length; i++) {
+        // console.log("Team B " + teamB[i])
+
+        for (let j = 0; j < teamA.length; j++) {
+            if (teamB[i] >= teamA[j]) {
+                obj[teamB[i]] = obj[teamB[i]] + 1 || 1
+            }
+        }
+    }
+
+    // store the keys of the object in an array
+    let keys = Object.keys(obj)
+    let values = Object.values(obj)
+
+    console.log(values)
+
+    //
+    // for (let i = 0; i < teamB.length; i++) {
+    //     for (let j = 0; j < teamB.length; j++) {
+    //         if (teamB[i] >= teamA[j]) {
+    //             obj[teamA[i]] = obj[teamB[i]] + 1 || 1
+    //         }
+    //     }
+    // }
+    //
+    // let values = Object.values(obj)
 }
+
+counts([1,2,3], [2,4])
+// => [2, 3]
+
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
 

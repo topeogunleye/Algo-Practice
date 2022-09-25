@@ -40,17 +40,32 @@ function readLine() {
 
     function minimumMoves(arr1, arr2) {
     // Write your code here
-        let answer = 0;
+    let moves = 0
+    let obj = {}
+    let obj2 = {}
 
-        for (let i = 0; i < arr1.length; i++) {
-            let num = arr1[i]
-            let num2 = arr2[i]
-            let diff = Math.abs(num - num2)
-            answer += diff
-        }
+    // create an object with the values of arr1 as keys and the number of times they appear as values
+    for (let i = 0; i < arr1.length; i++) {
+        obj[arr1[i]] = obj[arr1[i]] + 1 || 1
+    }
 
-        return answer
+    // create an object with the values of arr2 as keys and the number of times they appear as values
+
+    for (let i = 0; i < arr2.length; i++) {
+        obj2[arr2[i]] = obj2[arr2[i]] + 1 || 1
+    }
+
+    // store the keys of the object in an array
+    let keys = Object.keys(obj)
+    let values = Object.values(obj)
+    let keys2 = Object.keys(obj2)
+    let values2 = Object.values(obj2)
+
+    console.log(keys)
+    console.log(values)
+        // return answer
 }
 
-console.log(minimumMoves([1,2,3], [2,4,5]))
+console.log(minimumMoves([1234, 4321], [2345, 3214]))
+// =>
 
