@@ -3,7 +3,7 @@
 
 ## Built With
 
-- JavaScript
+- JavaScript, ES6
 
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
