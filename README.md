@@ -1,5 +1,5 @@
 # Algo-Practice
-> Daily pracitse of Data Structures and Algorithms
+> Daily practise of Data Structures and Algorithms
 
 ## Built With
 
