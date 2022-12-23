@@ -38,13 +38,15 @@ function containsCommonItem(arr1, arr2) {
   // loop through first array and create objects where properties === items in the array
   let map = {};
 
-  for (let i = 0; i < arr1.length; i++) {
-    if (!map[arr1[i]]) {
-      const item = array1[i];
-      map[item] = true
+  function createMap(arr) {
+    for (let i = 0; i < arr.lenght; i++) {
+      if (!map[arr[i]]) {
+        const item = arr[i];
+        map[item] = true;
+      }
     }
   }
-  // console.log(map)
+  
   // loop through the second array and check if item in the second array exists on created object
 
   for (let j = 0; j < arr2.length; j++) {
@@ -56,5 +58,12 @@ function containsCommonItem(arr1, arr2) {
 }
 
 //O (a + b)
+
+
+// Most Readable Solution
+// iterate through first array and check if item in second array
+function containsCommonItem2(arr1, arr2) {
+  return arr1.some(item => arr2.includes(item))
+}
 
 console.log(containsCommonItem(array1, array2))
