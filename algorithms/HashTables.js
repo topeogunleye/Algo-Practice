@@ -14,6 +14,7 @@ class HashTable {
 
   set(key, value) {
     let address = this._hash(key);
+    // if this could be a collision, we need to check if the address is already taken
     if (!this.data[address]) {
       this.data[address] = [];
       this.data[address].push(key, value)
