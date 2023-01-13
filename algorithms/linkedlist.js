@@ -23,9 +23,10 @@ class LinkedList {
   prepend(value) {
     let new_node = {
       value: value,
-      next: this.head
+      next: null
     }
 
+    new_node.next = this.head
     this.head = new_node
     this.length++
     return this
