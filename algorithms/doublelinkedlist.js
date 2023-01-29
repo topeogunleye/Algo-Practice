@@ -30,11 +30,9 @@ class DoubleLinkedList {
   prepend(value) {
     let newNode = new Node(value)
   
-    let currentHead = this.head;
-    newNode.next = currentHead;
-    this.head = newNode;
-    currentHead.prev = newNode;
-   
+    newNode.next = this.head;
+    this.head.prev = newNode;
+    this.head = newNode;   
     this.length++
     return this
   }
@@ -52,6 +50,16 @@ class DoubleLinkedList {
 
     const newNode = new Node(value)
 
+    const leader = this.traverseToIndex(index-1)
+    const follower = leader.next;
+    leader.next = newNode;
+    newNode.next = follower;
+    this.length++
+    return this.printList();
+  }
+
+  remove(index) {
+    // check params
     const leader = this.traverseToIndex(index-1)
   }
 
