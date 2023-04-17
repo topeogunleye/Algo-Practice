@@ -16,6 +16,8 @@ const twoSums = (nums, target) => {
     if (indices[diff] !== undefined) {
       return [indices[diff], i]
     } else {
+
+      // 
       indices[nums[i]] = i
     }
      
