@@ -17,7 +17,7 @@ const twoSums = (nums, target) => {
       return [indices[diff], i]
     } else {
       indices[nums[i]] = i
-      console.log(indices[nums[i]])
+      console.log('indices: ' + indices[nums[i]])
     }
      
   }
