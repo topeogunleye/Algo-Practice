@@ -11,6 +11,7 @@ const twoSums = (nums, target) => {
 
     let diff = target - nums[i];
 
+    // if diff is not in indices, add diff to indices
     // if diff is in indices, return [indices[diff], i]
 
     if (indices[diff] !== undefined) {

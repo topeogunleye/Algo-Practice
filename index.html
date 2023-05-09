@@ -5,9 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 200px;
+        width: 200px;	
+        background-color: black;
+      }
+
+      .grid-item {
+        grid-column: 1/span 2;
+        grid-row: 1/3;
+        background-color: green;
+      }
+  </style>
 </head>
 <body>
   
+  <div class="grid-container">
+      <div class="grid-item">Item 1</div>
+  </div>
 
   <!-- <script src="gradingStudents.js"></script> -->
   <!-- <script src="countingValleys.js"></script> -->

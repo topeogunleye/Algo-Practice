@@ -29,4 +29,4 @@ for (let i = 0; i < n; i++) {
 return Math.abs(diagonalSum1 - diagonalSum2)
 }
 
-diagonalDifference([1, 2, 3], [4, 5, 6], [9, 8, 9])
+diagonalDifference([[1, 2, 3], [4, 5, 6], [9, 8, 9]])
