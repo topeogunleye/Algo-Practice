@@ -26,4 +26,4 @@ function absSort(arr) {
 }
 
 absSort([2,-7,-2,-2,0])
-absSort([2,-7,-2,-2,0])
+absSort([-2,1])
