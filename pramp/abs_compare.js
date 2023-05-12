@@ -28,3 +28,4 @@ function absSort(arr) {
 absSort([2,-7,-2,-2,0])
 absSort([-2,1])
 absSort([0,1,2])
+absSort([2,-1,-1,-1])
