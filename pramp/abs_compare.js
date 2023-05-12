@@ -25,4 +25,4 @@ function absSort(arr) {
 	// your code goes here
 }
 
-
+absSort([2,-7,-2,-2,0])
