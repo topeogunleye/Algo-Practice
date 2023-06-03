@@ -29,3 +29,5 @@ function findPairsWithGivenDifference(arr, k) {
   
   return res
 }
+
+console.log(findPairsWithGivenDifference([0, -1, -2, 2, 1], 1))
