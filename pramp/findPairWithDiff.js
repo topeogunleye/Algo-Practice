@@ -33,3 +33,4 @@ function findPairsWithGivenDifference(arr, k) {
 console.log(findPairsWithGivenDifference([0, -1, -2, 2, 1], 1))
 console.log(findPairsWithGivenDifference([1, 7, 5, 3, 32, 17, 12], 17))
 console.log(findPairsWithGivenDifference([1, 7, 5, 3, 32, 17, 12], 0))
+console.log(findPairsWithGivenDifference([1, 7, 5, 3, 32, 17, 12], 5))
