@@ -28,6 +28,7 @@ function getIndicesOfItemWeights(arr, limit) {
 
 console.log(getIndicesOfItemWeights([4, 4, 1], 5))
 console.log(getIndicesOfItemWeights([4, 6, 10, 15, 16], 21))
+console.log(getIndicesOfItemWeights([4, 4], 8))
                                   
 /*
 
