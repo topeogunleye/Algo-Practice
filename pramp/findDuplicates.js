@@ -30,7 +30,7 @@ function findDuplicates(arr1, arr2) {
 
 
 findDuplicates([1, 2, 3, 5, 6, 7], [3, 6, 7, 8, 20])
-
+findDuplicates([0, 4, 8, 5, 7], [3, 6, 7, 1, 20])
 // O(A * B)
 // O(A + B)
 
@@ -59,3 +59,5 @@ findDuplicates([1, 2, 3, 5, 6, 7], [3, 6, 7, 8, 20])
 //   return UniqueArray
 
 // }
+
+// findDuplicates([1, 2, 3, 5, 6, 7], [3, 6, 7, 8, 20])
