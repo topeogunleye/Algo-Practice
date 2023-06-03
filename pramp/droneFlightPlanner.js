@@ -32,3 +32,4 @@ function calcDroneMinEnergy(route) {
 // The space complexity of the solution is O(1), 
 // because the solution only uses two variables (minEnergy and currEnergy) 
 // that do not depend on the size of the input array.
+calcDroneMinEnergy([[0,2,10],[3,5,0],[9,20,6],[10,12,15],[10,10,8]])
