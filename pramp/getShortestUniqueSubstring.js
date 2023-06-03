@@ -54,6 +54,7 @@ function getShortestUniqueSubstring(arr, str) {
 }
 
 console.log(getShortestUniqueSubstring(['x','y','z'], "xyyzyzyx"))
+console.log(getShortestUniqueSubstring(['A'], "A"))
 
 
 // The time complexity of the solution is O(n + m), where n is the length of 
