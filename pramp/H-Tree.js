@@ -26,3 +26,10 @@ const drawHTree = (x, y, length, depth) => {
   // draw middle H
   drawHTree(x, y + length / 2, length / 2, depth - 1);
 };
+
+
+drawHTree(0, 0, 10, 2);
+drawHTree(0, 0, 10, 3);
+drawHTree(0, 0, 10, 4);
+drawHTree(0, 0, 10, 5); 
+drawHTree(0, 0, 10, 6);
