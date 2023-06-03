@@ -30,3 +30,4 @@ return result
 }
 
 console.log(bracketMatch('(()'));
+console.log(bracketMatch('(())'));
