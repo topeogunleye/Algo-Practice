@@ -47,3 +47,4 @@ function calcDroneMinEnergy(route) {
 
 console.log(calcDroneMinEnergy([[0,2,10],[3,5,0],[9,20,6],[10,12,15],[10,10,8]]))
 console.log(calcDroneMinEnergy([[0,2,6],[10,10,20]]))
+console.log(calcDroneMinEnergy([[0,2,10],[3,5,0],[9,20,6],[10,12,2],[10,10,10],[10,10,2]]))
