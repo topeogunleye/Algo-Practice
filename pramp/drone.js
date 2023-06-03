@@ -44,3 +44,5 @@ function calcDroneMinEnergy(route) {
   
   return Math.abs(min);
 }
+
+console.log(calcDroneMinEnergy([[0,2,10],[3,5,0],[9,20,6],[10,12,15],[10,10,8]]))
