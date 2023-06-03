@@ -28,3 +28,5 @@ return result
   // https://www.linkedin.com/in/ogunleye/
   // https://manara.tech/
 }
+
+console.log(bracketMatch('(()'));
