@@ -33,3 +33,4 @@ drawHTree(0, 0, 10, 3);
 drawHTree(0, 0, 10, 4);
 drawHTree(0, 0, 10, 5); 
 drawHTree(0, 0, 10, 6);
+drawHTree(0, 0, 10, 7);
