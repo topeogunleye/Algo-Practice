@@ -76,7 +76,7 @@ For more information on the importance of a professional README for your reposit
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">JavaScript</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 </details>
 
