@@ -1,0 +1,8 @@
+#pokes {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+}
+#pokes::before {
+  content: "const pokes = ";
+}
