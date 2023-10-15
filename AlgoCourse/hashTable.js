@@ -51,6 +51,7 @@ class HashTable {
 const myHashTable = new HashTable(50);
 // call set grapes
 myHashTable.set('grapes', 10000);
+// set apples
 myHashTable.set('apples', 54);
 myHashTable.get('grapes')
 // call keys
