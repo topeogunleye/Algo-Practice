@@ -80,20 +80,6 @@ For more information on the importance of a professional README for your reposit
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>N/A</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>N/A</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
