@@ -18,6 +18,7 @@ function lonelyinteger(a) {
     // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR_assignment
     result ^= a[i];
   }
+  // return result
   return result;
 
 
